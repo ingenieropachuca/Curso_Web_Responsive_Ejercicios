@@ -1,0 +1,218 @@
+Ahora que ya Aprendimos a usar HTML y un poco de CSS entonces ahora si ya podemos empezar a ver bootstrap pero que es bootstrap? 
+
+Es un un framework para desrrollo de paginas web responsivas 
+ Son como piesas de lego 
+
+ Entonces ustedes se pueden preguntar si boostrap tiene todos esos estilos para usar no hace que todas las paginas se vean igual? 
+ pues no puedes no usar todas las caracteristicas de boostrap e incluir tus propios estilos 
+
+ Entonces pues vamos a instalar bootstrap en nuestros proyectos
+
+1) ENTRAMOS A LA PAGINA DE BOOSTRAP
+2) DESCARGAMOS LOS ARCHIVOS Y SOLO PONEMOS LOS QUE VAMOS A USAR 
+3) LOS METEMOS EN UNA CARPETA 
+4) USAMOS LA ETIQUETA LINK PARA INCLUIR CSS DE BOOSTRAP
+5) AHORA VEMOS EN H1 
+6) PROBAR BOTONES 
+CAMBIAR EL COLOR DE BOOTSTRAP 
+
+.btn-danger{
+background: orange;
+}
+
+7) VER COMO FUNCIONA EL JUMBOTRON 
+- USAR UN div class container 
+Para mostrar como centra el contenido
+
+Centrar los botones 
+
+8) VAMOS A IR EN ORDEN AHORA
+
+<header>
+<div class="container">
+<div class="page-header">
+<h1 class="text-center">SOY EL HEADER</h1>
+</div>
+</div>
+</header>
+
+
+9) AHORA EL NAV BAR 
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<a href="" class="navbar-brand"> COFFE</a>
+</div>
+<ul class="nav navbar-nav">
+	<li><a href="">  Nosotros </a></li>
+	<li><a href=""> Contacto  </a> </li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="">  Sing in </a></li>
+	<li><a href=""> Login </a> </li>
+</ul>
+</nav>
+</body>
+</html>
+
+10) AHORA VAMOS A PROBAR EL SIGUIENTE NAVBAR COPIANDO EL CACHO DE CODIGO EN NUESTRO ARCHIVO 
+Mostrar que no funciona 
+
+11) TENEMOS QUE HACER FUNCIONAR LA SIGUIENTE PARTE 
+
+12) INCLUIR JAVASCRIPT FILE Y EL ARCHIVO DE JQUERY
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+13 ahora incluir esta linea en el codigo 
+y mostrar como colapsa el codigo
+
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<a href="" class="navbar-brand"> COFFE</a>
+</div>
+ *****<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="">  Nosotros </a></li>
+	<li><a href=""> Contacto  </a> </li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="">  Sing in </a></li>
+	<li><a href=""> Login </a> </li>
+</ul>
+*****</div>
+</nav>
+</body>
+</html>
+Y PARA HACER QUE SALGA EL MENU AGREGAMOS ESTE CODIGO 
+
+
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+
+   ****   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+</button>
+
+<a href="" class="navbar-brand"> COFFE</a>
+</div>
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="">  Nosotros </a></li>
+	<li><a href=""> Contacto  </a> </li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="">  Sing in </a></li>
+	<li><a href=""> Login </a> </li>
+</ul>
+</div>
+</nav>
+</body>
+</html>
+
+AHORA POR ULTIMO AGREGAREMOS UN DROP DOWN BOTTON 
+
+****OJO <ul class="nav navbar-nav">
+<li class="dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="blanco"> COFFE </span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Moka</a></li>
+            <li><a href="#">Express</a></li>
+            <li><a href="#">Americano</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Caramel</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Late</a></li>
+          </ul>
+        </li>
+ *****OJO </ul>
+
+
+
+ BUENO YA TENEMOS EL HEADER Y EL NAVBAR VAMOS A VER LA PARTE 
+ QUE ES LA PARTE MAS IMPORTANTE POR LO CUAL ESTAMOS EN ESTE CURSO 
+ EL GRID SISTEM O SISTEMA DE REJILLAS 
+EL CUAL ACTUA COMO EL ESQUELETO DE NUESTRA APLICACION WEB 
+COSAS IMPORTANTES QUE DEBEMOS SABER ES QUE BOOTSTRAP SE DIVIDE EN 
+12 COLUMNAS Y NOSOTROS PODEMOS DEFINIR CUANTAS COLUMNAS QUEREMOS USAR 
+
+ENTONCES VAMOS A VER COMO FUNCIONA EMPEZAMOS ESCRIBIENDO SIEMPRE QUE USEMOS EL GRID SISTEM NECESITAMOS UN CONTENEDOR 
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-6 color">COL LG 6</div>
+<div class="col-lg-6 color">COL LG 6</div>
+</div>
+</div>
+
+
+.color{
+background-color: #FF0000;
+border-width: 2px;
+border-style: solid;
+border-color: #0000FF;
+}
+
+
+probar con mas tamaños agregar otra fila incluso 
+<div class="container">
+<div class="row">
+<div class="col-lg-6 color">COL LG 6</div>
+<div class="col-lg-6 color">COL LG 6</div>
+</div>
+<div class="row">
+<div class="col-lg-3 color">COL LG 6</div>
+<div class="col-lg-3 color">COL LG 6</div>
+<div class="col-lg-3 color">COL LG 6</div>
+<div class="col-lg-3 color">COL LG 6</div>
+
+</div>
+</div>
+
+OJO
+PROBAMOS HACIENDO CHIQUITA LA PANTALLA Y MOSTRANDO LO QUE PASA
+
+AHORA EXPLICAMOS QUE HAY 4 DIFERENTES TAMAÑOS EN BOOTSTRAP 
+XS-EXTRA SM-SMALL MD-MEDIUM LG-LARGE
+
+<div class="col-lg-3 color">COL LG 6</div>
+<div class="col-lg-3 color">COL LG 6</div>
+<div class="col-lg-3 color">COL LG 6</div>
+<div class="col-lg-3 color">COL LG 6</div>
+MOSTRAR COMO FUNCIONA ESTAR PARTE LUEGO 
+
+<div class="col-lg-3 col-md-3 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 color">COL LG 6</div>
+
+MOSTRAR COMO SE VE ESTO Y LUEGO 
+
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6</div>
+
+
+AHORA VAMOS A VER COMO SE DIVIDEN LAS COLUMNAS EN COLUMNAS 
+
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6
+<div class="row">
+<div class="col-lg-6">1MITAD </div>
+<div class="col-lg-6">2MITAD </div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6</div>
+<div class="col-lg-3 col-md-3 col-sm-6 color">COL LG 6</div>
+
+AGEGAR COLOR PARA VERLO 
+
+
+ANTES DE HACER EL EJERCICIO LES RECOMIENDO PRIMERO ENTRAR A LA PAGINA UNSPLASH PARA BUSCAR IMAGENES

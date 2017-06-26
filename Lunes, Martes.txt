@@ -1,0 +1,341 @@
+
+1) PUEDE QUE YA HAYAS USADO GITHUB ANTES SIN DARTE CUENTA
+Para Descargar Librerias o Consultar algun codigo
+
+2)IR A LA PAGINA DE BOOTSTRAP PARA MOSTRAR LA PAGINA DE GITHUB
+En la pagina de github podemos ver como nos muestra todo el proyecto de bootstrap 
+aqui podemos ver algunas cosas raras como los issues el code etc que vamos a ir viendo poco a poco 
+
+3)ENCENDER LA COMPUTADORA Y PASAR GITHUB DESKTOP
+Por favor todos enciendan su computadora les voy a pasar por usb un programa para lo que lo puedan instalar en 
+sus maquinas no se tarda nada.
+
+4) EL PROGRAMA SE LLAMA GITHUB DESKTOP 
+Es para windows o mac Si ustedes son usuarios de linux hay otro que se llama 
+Gitkraken que es muy parecido a lo que vamos ah estar viendo aqui 
+
+5)USTEDES SE PREGUNTARAN POR QUE VEMOS GITHUB SI ESTE CURSO ES DE WEB RESPONSIVE? 
+Bueno esto les puede servir no solo para proyectos web si no para todo tipo de proyectos
+es una plataforma que en los ultimos años a tomado mucha fuerza y nosotros como desarrolladores 
+no podemos ignorar tanto asi que llegas a un trabajo donde te contraten como desarrollador 
+y te dicen muestranos tus repositorios que ahorita vamos a ver como funcinan. 
+
+6)YA TODOS LO TIENEN INSTALADO? ESPERAMOS A QUE TERMINEN...
+
+7)PRIMERO VAMOS A ENTRAR A LA PAGINA WEB DE GITHUB Y AQUI VAMOS A CREARNOS UNA CUENTA
+Lo que yo les recomiendo es crearse una cuenta personal si ustedes son de los que tienen una empresa 
+o van a crear una empresa no le pongan el nombre de su empresa a su cuenta, esto nos proporciona herramientas 
+para hacer grupos colaborativos para este proposito lo veremos mas adelante.
+
+8)LAS CUENTAS DE PAGO
+Las cuentas de pago nos sirven para tener nuestros archivos de codigo privados por que
+recordemos que esta es una herramienta la cual cualquiera puede entrar a nuestro codigo 
+
+9)YA QUE TENEMOS NUESTRA CUENTA LO PRIMERO QUE VAMOS A HACER SERA CREAR UN REPOSITORIO
+*--OJO ESCRIBIR REPOSITORIO EN EL PIZARRON--*
+un repositorio es un almacen de nuestro codigo 
++ , New repository 
+- nombre Pagina web 
+- Descripcion
+- repositorios publicos 
+- Inicialice un repositorio con un readme 
+- create repository 
+
+10)CLONAR REPOSITORIO EN GITHUB DESKTOP 
+*--OJO ESCRIBIR CLONAR REPOSITORIO EN EL PIZARRON--*
+vamos a clonar este repositorio
+vamos a github desktop iniciamos sesion 
+entramos a clonar copiamos la url y vemos que nos ah clonado el archivo en nuestra computadora 
+
+11) AHORA VAMOS A HACER UN COMMIT //EXPLICAR QUE ES UN COMMIT 
+Es para archivar versiones seguras de nuestro codigo 
+si han jugado video juegos es como un check point 
+osea cuando tengamos un codigo funcional que archivamos.
+*--OJO ESCRIBIR COMMIT EN EL PIZARRON--*
+PARA HACER ESTO DEBEMOS TENER UN CODIGO QUE ARCHIVAR
+
+12) ANTES DE EMPEZAR LEVANTE LA MANO QUIEN NO SABE HTML? 
+13) Y LEVANTE LA MANO QUIEN NO HAYA USADO SUBLIME TEXT ANTES? 
+14) AHORA LEVANTE LA MANO QUIEN YA TRABAJA CON GITHUB Y SE ESTA ABURRIENDO? 
+
+MOSTRAR IMAGEN DE HTML
+DOCTYPE! INDICA QUE ESTAMOS TRABAJANDO CON HTML5
+HEAD: PROVEE INFORMACION GENERAL SOBRE EL DOCUMENTO 
+TITULO, HOJAS DE ESTILOS, LINKS 
+COSAS QUE NO VEMOS COMO USUARIOS 
+BODY: EL CONTENIDO DE LA PAGINA  
+
+15) CREAR CODIGO HTML EN SUBLIME SOLO CON UN H1
+Entramos a Sublime text y abrimos el folder que clonamos de github 
+aqui creamos un nuevo documento html y lo guardamos en esa carpeta 
+vamos a github desktop en historial para ver los cambios y damos commit para archivar 
+
+16)DESCRIPCION DE COMO SE HACE UN COMMIT  
+Summary: es un resumen de lo que hemos hecho en esta parte de codigo 
+Description: es como mas detalles del codigo 
+y le damos commit master 
+si nos equivocamos en algo aun le podemos dar a undo 
+hacer un commit cada que se haga una tarea unica hacer tareas especificas 
+para subir a github 
+barra roja 
+
+17) EXPLICAR QUE SON LAS BRANCH O RAMAS  
+Branch o Ramas 
+esta es una caracteristica importante de github que nos permite dividir 
+nuestro proyecto en varias ramas. 
+*--OJO EXPLICAR LO DE LAS RAMAS EN EL PIZARRON EN EL PIZARRON--*
+Tenemos una linea principal 
+y una linea paralela 
+
+18) PARA QUE SIRVEN LAS BRANCH O RAMAS
+podemos hacer varias cosas a la vez 
+osea dividirnos el trabajo con nuestro equipo
+y despues transferir los cambios de una rama a otra 
+
+19) RECOMENDACIONES PARA ESTO 
+No modificar en 2 ramas el mismo codigo por que va a haber conflictos si mas adelante se 
+desean convinar las ramas 
+Lo mas recomendable es hacer esto en 2 archivos de codigo diferentes 
+
+20) HACER UNA RAMA RAPIDA PARA MOSTRAR EN GITHUB DESKTOP
+hacer un MERGE 
+
+21) EXPLICAR QUE SON LOS ISSUES
+*--ESCRIBIR ISSUE EN EL PIZARRON--*
+Ahora vamos a ir a la pagina de github
+los issues son problemas que los usuarios que visitan tus repositorios 
+han encontrado en tu codigo y te lo hacen saber ya sean problemas o sugerencias 
+
+22)EXPLICAR QUE SON LOS FORK 
+Los forks es basicamente crear copias de codigo que no sean nuestros
+buscar una cuenta de alguien y darle fork 
+ahora el repositorio es mio
+
+23)CLONAR LOS FORK
+Ahora ya lo podemos clonar y hacer todas esas cosas que 
+habiamos hecho como si fuera nuestro 
+
+24)PARA QUE SIRVE HACER FORKS? 
+ya sea para utilizar los codigos de alguien mas en tu proyeto 
+O para modificarlos y hacer contribuciones al proyecto de otras personas 
+
+25)EXPLICAR QUE SON LOS PULL REQUESTS 
+pull requests
+Permite enviar codigo al repositorio de otra persona 
+para contribuir con su proyecto 
+
+26) AHORA NOS VAMOS A SETTINGS
+-cambiar el nombre
+-desactivar issues
+-no se pueden desactivar pull requests
+-Borrar un repositorio
+
+27) STARS PARA PUNTUAR PROYECTOS
+star para darle estrellas si te gusta el proyecto 
+
+28) WATCH PARA QUE SON 
+watch para recibir notificaciones de de los repositorios 
+
+29) QUE SON GITHUB PAGES
+github pages 
+solo puedes hostear archivos web estaticos 
+Para activar el hosting 
+rama master cuando le doy guardar 
+ya me pone que mi sitio esta listo para ser publicado 
+todos los usuarios tenemos un 
+si yo modifico el repositorio se va a modificar la pagina 
+
+30) COLABORADORES OJO EN ESTA PARTE 
+colaboradores: permite a otras personas colaborar en nuestro 
+proyecto sin hacer fork cuidado con este 
+
+31) QUE ES LA WIKI EN GITHUB
+En la wiki se escribe documentacion sobre nuestro proyecto 
+es una pagina de ayuda para las personas 
+
+32) QUE SON LOS RELESES 
+Que son los releses
+esta es la parte que se utiliza para publicar versiones 
+attach binaries sirve para cargar archivos compilados 
+y tambien podemos poner pre-relese para ponerla como version beta 
+
+
+33) COMO CREAR ORGANIZACIONES EN GITHUB
+Se crean organizaciones con varias personas 
+por ejemplo apple: 
+mostrar a apple y empezar una organizacion 
+boton del + new organization 
+Crea una cuenta para ti y luego una organizacion 
+con el nombre de tu empresa
+
+34) Y POR ULTIMO EL SERVICIO DE GIST 
+Por ultimo Servicio de gist
+para crear pedasos de codigo para compartir con otras personas 
+esto sirve si no quieres compartir el repositorio completo 
+una forma rapida de crear archivos pequeños 
+crearte public gist para compartir con otras personas 
+compartiendo la url a la otra persona 
+crear archivos secretos para pasar que no se indexan en google 
+
+
+HAY TODABIA MAS COSAS QUE SE PUEDEN HACER CON GITHUB PERO 
+-------------------------------------------------------------------------------------------------------------
+INDEX
+Cuando se instala un servidor, en su configuración se le debe indicar qué archivo se debe cargar 
+por defecto cuando se accede a un directorio. 
+
+COMO ACEPTAR LOS PULL REQUEST 
+
+RELESES 
+CREAR UN NUEVO RELESE 
+
+NOSOTROS HASTA AQUI TERMINAMOS LA PARTE DE GITHUB DEL CURSO Y PASAMOS A VER HTML
+
+----------------------------------------------------------------------------------------------
+ESCTRUCTURA DE UN DOCUMENTO HTML  
+
+<!DOCTYPE html>
+Esta línea deberá ser la primera línea del documento,La cual indica al navegador que se esta trabajando 
+con HTML 5
+<html>
+Después de declarar el tipo de documento,Este elemento engloba todo el código HTML.
+<head>
+Dentro de los "tags" <head>, definiremos el título de nuestra página,
+declararemos la codificación de caracteres, 
+incluiremos cualquier información general que queramos sobre el documento, 
+e incorporaremos archivos externos con los estilos.
+A excepción del título y algunos iconos,
+el resto de la información incluida en el documento dentro de las etiquetas 
+<head> no será visible.
+
+<title>
+EL TITULO DEL DOCUMENTO 
+
+<link>
+Otro elemento importante que se incluye dentro de la cabecera es <link>. 
+Este elemento se utiliza para incorporar estilos, scripts, 
+imágenes o iconos de archivos externos. 
+Uno de los usos más comunes de <link>, 
+es el de insertar un archivo CSS externo:
+
+<body>
+La siguiente sección que forma parte de la organización principal del documento HTML es el "body". 
+Este "cuerpo" es la parte visible del documento y viene especificado con la etiqueta <body>.
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Esto es un ejemplo de HTML5">
+<meta name="keywords" content="HTML5">
+<title>Título del documento</title>
+<link rel="stylesheet" href="edu4javastyles.css">
+</head>
+<body>
+</body>
+</html>
+-----------------------------------------------------------------------------------------
+ESTRUCTURA DEL CUERPO 
+*MOSTRAR IMAGEN DEL LA ESTRUCTURA DEL CUERPO 
+
+la etiqueta <header> aporta información introductoria (como títulos, subtítulos, losgos....).
+
+El elemento <nav> está hecho para incluir ayudas a la navegación como el menu principal 
+o los bloques principales de navegación y se debería utilizar para este propósito.
+
+<aside>
+En el diseño estándar de un blog, la barra lateral contiene una lista de links. La información 
+dentro de esta barra está relacionada con el contenido principal de la página pero 
+no es relevante por si sola.
+
+<footer>. Se llama así porque la barra representa el fin (o pie) de nuestro documento 
+y esta parte de la página web es utilizada normalmente para compartir información general 
+sobre el autor o la compañía que ha creado el proyecto; como copyright, términos y condiciones, etc.
+-----------------------------------------------------------------------------------------
+HTML: ES LA ESTUCTURA Y EL CONTENIDO DE LA PAGINA SOLO ESTO 
+REGLA GENRAL DE HTML <nombre del tag>contenido</nombre del tag>
+hacer comentarios en html es: 
+
+<!--contenido -->
+
+ANTES DE EMPEZAR A PICARLE A HTML QUIERO MOSTRARLES UNOS HACKS DE SUBLIME TEXT PARA 
+AYUDARNOS AGILIZAR UN POCO ALGUNAS TAREAS.
+
+Control + D Para seleccionar una palabra 
+control + f para buscar palabras en nuestro codigo 
+control + click para crear varios cursores 
+control + N para abrir una nueva pestaña 
+Control + S guardar 
+control + tab para movernos entre pestañas 
+
+
+ahora vamos a ver algunos tags importantes en HTML 
+Primero empezamos con los encabezados 
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+
+<p> es un tag de parrafo 
+<b> para hacer la letra negrita
+<strong>
+<em> Para hacer enfasis en una palabra 
+<br>
+
+QUE ES UN DIV? 
+AGRUPA COSAS JUNTAS 
+El elemento HTML <div> es el contenedor genérico para el contenido de flujo y 
+no representa inherentemente nada.
+
+QUE ES UN SPAN ? 
+El span es un contenedor generico como el div la diferenecia entre el div y el 
+SPAN  es que DIV es un contenedor con salto de linea
+y el SPAN es en la linea
+
+EJERCICIO DE LOS DANZANTES
+
+LISTAS EN HTML
+LISTAS ORDENADAS
+<ol>
+<li>verde</li>
+<li>verde</li>
+<li>verde</li>
+</ol>
+
+LISTAS DESORDENADAS
+<ul>
+<li>verde</li>
+<li>verde</li>
+<li>verde</li>
+</ul>
+AQUI COLOCAR EL EJERCICIO1.0
+
+ATRIBUTOS DE HTML 
+LOS ATRIBUTOS SON ADICIONAL INFORMACION ELEMETOS EN LOS TAGS DE HTML 
+LA REGLA PARA ESTOS ATRIBUTOS DE HTML ES: <tag nombre="valor"> </tag>
+Por ejemplo: 
+<img src="pato.png">
+<p class="main"> WOW</p>
+<a href="www.google.com">Click para ir a gooogle</a>
+<link rel="stylesheet" type="text/css" href="style.css">
+VAMOS A VER UNA PAGINA DE REFERENCIA QUE NOS PUEDE AYUDAR PARA TENER MAS INFORMACION SOBRE ESTO: 
+MDN
+
+
+IMAGENES 
+ir a sublime y escribir: 
+<img src="pato.png">
+En este tag podemos notar en primera 
+no cierra  y no tiene contenido solo un atributo 
+
+VAMOS A BUSCAR UNA IMAGEN EN INTERNET LA QUE QUIERAN 
+LA GUARDAMOS EN EL MISMO REPOSITORIO DE GITHUB Y LE PONEMOS 
+EN UNA NUEVA CARPETA Y LE PONEMOS IMAGENES 
+
+AHORA EL SIGUIENTE TAG QUE VEREMOS ES EL LINK TAG 
+ES HACER LINKS A OTRA PARTE DE NUESTRA PAGINA O OTRA PAGINAS COMO FACEBOOK 
+LA ESTRUCTURA DE ESTE ES LA SIGUIENTE: 
+<a href="url">TEXT LINK</a>

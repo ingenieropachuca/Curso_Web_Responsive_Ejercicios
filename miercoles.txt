@@ -1,0 +1,129 @@
+
+TABLAS EN HTML: 
+TENEMOS VARIAS ETIQUETAS PARA HACER TABLAS LA PRIMERA ES LA ETIQUETA 
+<table> Define que lo que se encuentra dentro es una tabla 
+<tr> Es una fila de la tabla 
+<th> Es la cabezera de la tabla 
+Y las celdas o los datos se definen con <td>
+Tambien es muy comun que en algunas tablas vemos estas etiquetas 
+
+<thead>
+<tbody>
+Sirven para darle estrutura a la tabla.
+
+/////////////////////////////////////////////
+<table>
+<tr>
+<th>Nombre</th> //TABLE HEADER
+<th>Edad</th> 
+</tr>
+
+<tr>
+<td>Carlos</td>
+<td>23</td> 
+</tr>
+</table>
+////////////////////////////////////////////
+EJERCICIO DE LOS POKEMONES 
+
+AHORA VAMOS A VER FORMULARIOS EN HTML 
+<form>
+	<input type="text" name="">
+	<input type="color" name="">
+	<input type="radio" name="">
+	<input type="password" name="">
+</form>
+ 
+
+<h1>Login</h1>
+<form>
+	<input type="text" placeholder="nombre"> //atributo
+	<input type="password" placeholder="password">
+	<input type="submit">
+</form>
+
+
+<select>
+	<option> Naranja </option>
+	<option> Fresa </option>
+	<option> Mango </option>
+</select>
+
+ESTOS FORMULARIOS POR SI SOLOS NO HACEN NADA NECESITAN 2 atributo 
+value y method PERO ESO YA ES MATERIAL PARA OTRO CURSO
+POR ULTIMO DE HTML VAMOS A VER COMO INSERTAR VIDEOS EN UNA PAGINA 
+
+--------------------------------------------------------------------------------------------------------------
+CSS 
+
+1) EXPLICAR QUE SIGNIFICA CSS
+CASCADING STYLE SHEETS 
+RECUERDEN QUE HTML ES LA ESTRUCTURA DE NUESTRA PAGINA
+ENTONCES CSS ES EL LOOK DE LA PAGINA 
+
+2)MOSTRAR DIFERENCIA ENTRE PAGINAS CON CSS Y SIN CSS 
+CSS ZEN GARDEN IR Y MOSTRAR PAGINA
+
+3)MOSTRAR LA ESTRUCTURA BASICA DE LOS CSS
+selector { //PUEDE SER ALGUN ELEMENTO DEL HTML
+propiedad: valor;
+}
+
+4)MOSTRAR EL EJEMPLO CON EL H1 COLOR ES PARA LAS LETRAS 
+//TODOS LOS h1 se veran de esta forma 
+h1{
+color:purple;
+}
+
+6)EXPLICAR LOS COLORES EN HEXADECIMAL 
+CSS ES BASICAMENTE DESCRIBIR COMO SE VERA LA PAGINA
+1) AHORA VAMOS A EMPEZAR A HACER ALGO DE CSS
+Los colores trabajan en un sistema exadecimal 
+osea de 16 digitos 
+0123456789ABCDEF
+
+ahora los colores estan compuestos de 6 digitos en exadecimal 
+ROJO, GREEN, BLUE
+#00 00 00 
+tambien se pueden trabajar directamente los colores con RGB (0,0,0)
+o con rgba(0,200,100,1); (a la va entre 0.0 a 1.0) a de alfa o grado de transparencia
+
+7) EXPLICAR QUE ES EL BACKGRAUND CON IMAGENES Y SIN IMAGENES
+body{
+	background: url(imagenescss/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+8) EXPLICAR QUE ES EL BORDER 
+LOS BORDES TIENEN 3 PARTES DIFERENETES 
+width, color, style
+solid, dashed
+border-color: blue;
+border-width: 5px;
+border-style: solid;
+
+
+	border:7px solid;
+	border-bottom:none;
+	border-left-color:#c8c8c8;
+    border-top-color:#c8c8c8;
+	border-right-color:#c8c8c8;
+
+9) AHORA VAMOS A VER 3 SELECTORES EN CSS
+IDENTIFICADORES
+#especial
+{
+	
+}
+id="especial"
+ELEMENTOS 
+div{
+}
+CLASES
+class="rojo"
+EJERCICIO DE LOS DANZANTES 
+
+
+8) EXPLICAR COMO SE PONEN LOS VIDEOS DE YOUTUBE 
+<iframe frameborder="0" width="890" height="500" src="https://www.youtube.com/embed/iNJdPyoqt8U?rel=0&amp;controls=0&amp;autoplay=1&amp;showinfo=0" allowfullscreen></iframe>

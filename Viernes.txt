@@ -1,0 +1,123 @@
+8) VAMOS REVISAR LO ULTIMO QUE HICIMOS AYER POR QUE NO LO EXPLIQUE MUY BIEN 
+Y PARA QUE LOS QUE NO ESTABAN TAMBIEN VEAMOS ESTA PARTE 
+
+9) PRIMERO VAMOS A HACER UN ARCHIVO EN HTML CON BOOTSTRAP 
+<header>
+<div class="container">
+<div class="page-header">
+<h1 class="text-center">SOY EL HEADER</h1>
+</div>
+</div>
+</header>
+
+
+12 COLUMNAS Y NOSOTROS PODEMOS DEFINIR CUANTAS COLUMNAS QUEREMOS USAR 
+OFFSET PARA MOVER LA COLUMNA A LA DERECHA
+
+COLUMNAS
+
+CONTAINER FLUID
+TABLE RESPONSIVE
+VISIBLE Y HIDDEN 
+IMG RESPONSIVE
+vertical-align
+
+
+
+ **UNSPLASH PARA IMAGENES 
+
+
+10) AHORA EL NAV BAR 
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<a href="" class="navbar-brand"> COFFE</a>
+</div>
+<ul class="nav navbar-nav">
+	<li><a href="">  Nosotros </a></li>
+	<li><a href=""> Contacto  </a> </li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="">  Sing in </a></li>
+	<li><a href=""> Login </a> </li>
+</ul>
+</nav>
+</body>
+</html>
+
+10) AHORA VAMOS A PROBAR EL SIGUIENTE NAVBAR COPIANDO EL CACHO DE CODIGO EN NUESTRO ARCHIVO 
+Mostrar que no funciona 
+
+11) TENEMOS QUE HACER FUNCIONAR LA SIGUIENTE PARTE 
+
+12) INCLUIR JAVASCRIPT FILE Y EL ARCHIVO DE JQUERY
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+13 ahora incluir esta linea en el codigo 
+y mostrar como colapsa el codigo
+
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<a href="" class="navbar-brand"> COFFE</a>
+</div>
+ *****<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="">  Nosotros </a></li>
+	<li><a href=""> Contacto  </a> </li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="">  Sing in </a></li>
+	<li><a href=""> Login </a> </li>
+</ul>
+*****</div>
+</nav>
+</body>
+</html>
+Y PARA HACER QUE SALGA EL MENU AGREGAMOS ESTE CODIGO 
+
+
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+
+   ****   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+</button>
+
+<a href="" class="navbar-brand"> COFFE</a>
+</div>
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="">  Nosotros </a></li>
+	<li><a href=""> Contacto  </a> </li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="">  Sing in </a></li>
+	<li><a href=""> Login </a> </li>
+</ul>
+</div>
+</nav>
+</body>
+</html>
+
+AHORA POR ULTIMO AGREGAREMOS UN DROP DOWN BOTTON 
+
+****OJO <ul class="nav navbar-nav">
+<li class="dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="blanco"> COFFE </span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Moka</a></li>
+            <li><a href="#">Express</a></li>
+            <li><a href="#">Americano</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Caramel</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Late</a></li>
+          </ul>
+        </li>
+ *****OJO </ul>

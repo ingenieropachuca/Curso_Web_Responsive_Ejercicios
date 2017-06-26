@@ -1,0 +1,45 @@
+body{
+	background: #bdbdbd;
+}
+header{
+	text-align: center;
+	background: #69f0ae;
+	border-color: #bdbdbd;
+	border-width: 2px;
+	border-style: solid;
+}
+
+nav{
+	background: #00838f;
+	border-color: #bdbdbd;
+	border-width: 2px;
+	border-style: solid;
+
+}
+div{
+	color: #FFFFFF;
+	background: #37474f;
+	border-color: #bdbdbd;
+	border-width: 2px;
+	border-style: solid;
+}
+span{
+	color:#FF0000 ;
+
+
+}
+footer{
+	background: #f4ff81;
+	border-color: #bdbdbd;
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+}
+h1{
+	color: #827717;
+	text-align: center;
+}
+.ico{
+	height: 50px;
+	width: 50px;
+}
